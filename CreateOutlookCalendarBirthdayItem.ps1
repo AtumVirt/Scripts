@@ -1,5 +1,6 @@
 #Use case:  User had a personal calendar that they shared.  They wanted to add birthdays to it with the age the person would be in the subject/body of each reminder, rather than a generic one.
 #Inputs:  CSV with the following header/columns:  EmployeeName,EmployeeBirthday,Repeat,CalendarName
+#Add-CalendarMeeting modified from https://gallery.technet.microsoft.com/office/Create-Meeting-is-MS-f117778d
  param(
      [Parameter(Mandatory=$true)]
      $contentPath
